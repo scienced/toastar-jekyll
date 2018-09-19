@@ -1,0 +1,1 @@
+screenshotToggle('template-views');
