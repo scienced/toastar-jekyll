@@ -62,7 +62,7 @@ h1 {
 
 h2 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 30px;
+    font-size: 50px;
     font-weight: 600;
     color: #484848;
     margin: 15px 0
@@ -220,8 +220,8 @@ section:first-of-type {
 
 .button-teal {
     color: white;
-    background: #00CFBD;
-    border: 1px solid #00CFBD
+    background: #FF3465;
+    border: 1px solid #FF3465
 }
 
 .button-teal:hover {
@@ -886,8 +886,8 @@ section.dark-purple {
 }
 
 #masthead .navbar-right .button-sm {
-    border: 1px solid #298AE4;
-    background: #00ABF5;
+    border: 1px solid #FF3465;
+    background: #FF3465;
     padding: 8px 16px;
     color: white;
     font-size: 14px;
@@ -1152,7 +1152,7 @@ footer.footer .info-right a span {
 
 .home .homepage-header-section {
     background: linear-gradient(90deg, #5c58a5, #00ABF5);
-    background: linear-gradient(90deg, #142375, #14236E);
+    background: linear-gradient(90deg, #321E41, #321E41);
     position: relative
 }
 
@@ -1294,7 +1294,7 @@ footer.footer .info-right a span {
 }
 
 .home .text-block .left {
-    padding-right: 20%
+    padding-right: 5%
 }
 
 .home .text-block .right {
@@ -1457,7 +1457,7 @@ footer.footer .info-right a span {
 @media (min-width:992px) {
     .home .homepage-header-section h1 {
         margin-top: 10%;
-        font-size:63px;
+        font-size:60px;
     }
     .home .homepage-header-section [class^="col-"] {
         padding-left: 20px;
@@ -1495,7 +1495,7 @@ footer.footer .info-right a span {
 
 @media (min-width:768px) {
     .home .changing-image img {
-        max-width: 500px
+        max-width: 700px
     }
 }
 
