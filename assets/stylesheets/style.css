@@ -1156,7 +1156,7 @@ footer.footer .info-right a span {
     position: relative
 }
 
-
+.home .homepage-header-section h1,
 .home .homepage-header-section h2,
 .home .homepage-header-section h3,
 .home .homepage-header-section h4,
@@ -1165,10 +1165,7 @@ footer.footer .info-right a span {
     color: #fff;
 }
 
-.home .homepage-header-section h1 {
-    color: #fff;
-    font-size:63px;
-}
+
 
 
 .home .homepage-header-section .blue,
@@ -1459,7 +1456,8 @@ footer.footer .info-right a span {
 
 @media (min-width:992px) {
     .home .homepage-header-section h1 {
-        margin-top: 10%
+        margin-top: 10%;
+        font-size:63px;
     }
     .home .homepage-header-section [class^="col-"] {
         padding-left: 20px;
@@ -5527,9 +5525,12 @@ footer.footer .info-right a span {
     border: 1px solid #298AE4
 }
 
-.customers-page .customer-list .logos-list img {
+.logos-list img {
     width: 15%;
-    margin: 2%
+    margin: 2%;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+
 }
 
 .customers-page .customer-stories .container>div {

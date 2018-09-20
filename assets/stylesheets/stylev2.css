@@ -4,6 +4,14 @@
     line-height: 74px;
     font-weight: 500;
 }
+.clientlogo {
+    padding-left: 20px;
+    padding-right: 20px;
+    vertical-align: middle;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
 
 .t-p-white {
         font-size: 20px;
@@ -149,13 +157,13 @@ pre.c-eyebrow.c-eyebrow--dark {
 
 
 .t-link {
-    font-family: "Graphik-Medium";
+
     font-size: 14px;
     letter-spacing: 0;
     line-height: 20px;
     border-bottom: 4px solid #B8FF01;
     display: inline-block;
-    color: #3C3F40;
+
     padding-bottom: 3px;
     padding-right: 7px;
     position: relative;
