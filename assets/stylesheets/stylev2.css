@@ -1,3 +1,21 @@
+.list-support {
+        margin: 0 auto 15px;
+
+        > img {
+          height: 65px;
+        }
+      }
+.list-support img {
+       
+          height: 45px;
+              padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 30px;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+       
+      }
+
 .t-white {
         color: white;
     font-size: 73px;
