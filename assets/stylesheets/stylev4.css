@@ -1193,7 +1193,7 @@ header {
 }
 
 header .site-logo {
-    width: 148px;
+        height: 1.6rem;
     max-height: 100%
 }
 
