@@ -179,13 +179,25 @@ pre.c-eyebrow.c-eyebrow--dark {
     font-size: 14px;
     letter-spacing: 0;
     line-height: 20px;
-    border-bottom: 4px solid #B8FF01;
+    border-bottom: 4px solid #FF3467;
     display: inline-block;
 
     padding-bottom: 3px;
     padding-right: 7px;
     position: relative;
 }
+
+.t-link:after {
+    content: url(https://www.copper.com/imgs/right-arrow.svg);
+    position: relative;
+    top: 1px;
+    right: -4px;
+    -webkit-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+}
+
+.t-link:hover{text-decoration:none;color:#3C3F40}
+.t-link:hover:after{right:-8px}
 
 .feature-icon {
     font-size: 60px;
