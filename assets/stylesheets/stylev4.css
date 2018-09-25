@@ -1215,13 +1215,13 @@ header .container .navbar li .nav-link {
 }
 
 header .container .navbar li:hover .nav-link {
-    color: #0074e0
+    color: #30ACE2
 }
 
 header .container .navbar li:hover:after {
     position: absolute;
     content: '';
-    border-bottom: 3px solid #0074e0;
+    border-bottom: 3px solid #30ACE2;
     bottom: -1px;
     left: 0;
     right: 15px
