@@ -1691,9 +1691,7 @@ a.social-link:hover {
 }
 
 @media (max-width:992px) {
-    a[class^="button"]:not(.cta-btn) {
-        display: none
-    }
+ 
     .page-title-block .page-title-text {
         padding: 40px
     }

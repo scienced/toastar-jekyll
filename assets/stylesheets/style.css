@@ -226,8 +226,8 @@ section:first-of-type {
 
 .button-teal:hover {
     color: white;
-    background: #00CFBD;
-    border: 1px solid #00CFBD
+    background: #ff577f;
+    border: 1px solid #ff577f
 }
 
 .button-coral {
@@ -255,8 +255,8 @@ section:first-of-type {
 }
 
 .button-sm {
-    border: 1px solid #298AE4;
-    background: #00ABF5;
+    border: 1px solid #ff3465;
+    background: #ff3465;
     padding: 8px 16px;
     color: white;
     font-size: 14px;
