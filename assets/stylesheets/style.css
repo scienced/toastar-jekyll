@@ -288,8 +288,8 @@ section:first-of-type {
     -ms-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     -khtml-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     -o-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-    border: 1px solid #00ABF5;
-    background-color: #2ebaf6;
+    border: 1px solid #FD144D;
+    background-color: #FD144D;
     color: white
 }
 
