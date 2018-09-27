@@ -539,7 +539,7 @@ section.dark-purple {
 }
 
 .cta-section {
-    background-color: #103447;
+    background-color: #321e41;
     background-image: url('../images/cta-bg.svg');
     background-size: cover
 }
@@ -1146,7 +1146,7 @@ footer.footer .info-right a span {
 }
 
 .home h3 {
-    font-size: 36px;
+    font-size: 31px;
     font-weight: 600
 }
 
@@ -1298,7 +1298,7 @@ footer.footer .info-right a span {
 }
 
 .home .text-block .right {
-    padding-left: 20%
+
 }
 
 .home .text-block .inline-jira {
@@ -1495,7 +1495,9 @@ footer.footer .info-right a span {
 
 @media (min-width:768px) {
     .home .changing-image img {
-        max-width: 700px
+        max-width: 670px;
+        max-height: 450px;
+        
     }
 }
 
