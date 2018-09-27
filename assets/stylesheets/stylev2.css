@@ -208,3 +208,24 @@ span.benefits {
     
 }
 
+.partner-list {
+    text-align: left;
+    margin-left: 20px;
+
+}
+
+.partner-list-item {
+        margin-bottom: 18px;
+    list-style-type: none;
+
+}
+
+.partner-list-item i {
+           position: absolute;
+    left: -32px;
+    top: 3px;
+    color: #30ace2;
+    font-size: 22px;
+
+}
+
