@@ -241,3 +241,17 @@ span.benefits {
     border: 1px solid #fff
 }
 
+.testimonial {
+        margin: 20px 20px;
+    padding: 50px 30px;
+    border: 1px solid rgba(186,186,186,0.3);
+    background-color: white;
+}
+
+.testimonials--line {
+        width: 30px;
+    height: 3px;
+    margin-top: 30px;
+    border: 2px solid #30ace2;
+        margin-bottom: 10px;
+}
