@@ -229,3 +229,15 @@ span.benefits {
 
 }
 
+.button-clear-dark {
+    color: #101010;
+    background: rgba(255, 255, 255, 0);
+    border: 1px solid #101010
+}
+
+.button-clear-dark:hover {
+    color: #484848;
+    background: #fff;
+    border: 1px solid #fff
+}
+
