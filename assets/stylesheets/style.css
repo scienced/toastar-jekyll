@@ -1838,7 +1838,7 @@ footer.footer .info-right a span {
 
 .pricing .pricing-table tr:not(:first-child) td li,
 .pricing .pricing-table .pricing-column div li {
-    margin: 0 0 12px 0;
+    margin: 0 0 16px 0;
     font-size: 15px;
     color: #484848;
     padding-left: 2em;
