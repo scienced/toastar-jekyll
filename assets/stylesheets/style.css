@@ -1252,8 +1252,10 @@ footer.footer .info-right a span {
 }
 
 .home .changing-image {
-    padding: 0 !important
+    padding: 0 
 }
+
+
 
 .home .changing-image .hover-image {
     position: absolute;
@@ -1474,6 +1476,13 @@ footer.footer .info-right a span {
     .home .text-block .left {
         padding-right: 0;
         text-align: center
+    }
+
+    .home .changing-image {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        padding-top: 1rem;
+        margin-bottom: -1rem;
     }
     .home .text-block .right {
         padding-left: 0;
