@@ -258,3 +258,12 @@ span.benefits {
 }
 .emphasis{
     color: #00ABF5;}
+
+
+.navbar-fixed-drop-shadow {    
+
+    box-shadow: 0 0 15px rgba(19, 29, 41, 0.62);
+    background-color: #321e41c7!important;
+
+
+}

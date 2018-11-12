@@ -64,6 +64,28 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
 
+<!--toljs-->
+<script type="text/javascript">
+/**
+ * START Navbar
+ */
+
+
+  $(document).on('scroll', function () {
+    if ($(document).scrollTop() > 100) {
+      $('nav.navbar').addClass('navbar-fixed-drop-shadow');
+    } else {
+      $('nav.navbar').removeClass('navbar-fixed-drop-shadow');
+    }
+  });
+
+/**
+ * END Navbar
+ */
+ </script>
+
+
+
 		<!-- Drip -->
 		<script type="text/javascript">
 		  var _dcq = _dcq || [];
