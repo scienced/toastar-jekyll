@@ -219,7 +219,7 @@ section:first-of-type {
 }
 
 .button-teal {
-    color: white;
+    color: white!important;
     background: #FF3465;
     border: 1px solid #FF3465
 }
