@@ -264,6 +264,19 @@ span.benefits {
 
     box-shadow: 0 0 15px rgba(19, 29, 41, 0.62);
     background-color: #321e41c7!important;
+}
 
+.header-portrait {
+ position: relative;
+    left: 318px;
+    top: 20px;
+    z-index: 99;
+    max-height: 515px;
+}
 
+.header-grid {
+        position: absolute;
+    max-height: 350px;
+    top: 110px;
+    left: 0px;
 }
