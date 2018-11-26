@@ -70,7 +70,7 @@ h2 {
 
 h3 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 22px;
+    font-size: 30px;
     color: #484848;
     font-weight: 500;
     margin: 10px 0;
@@ -1143,10 +1143,7 @@ footer.footer .info-right a span {
     font-size: 19px
 }
 
-.home h3 {
-    font-size: 31px;
-    font-weight: 600
-}
+
 
 .home .homepage-header-section {
     background: linear-gradient(90deg, #5c58a5, #00ABF5);
