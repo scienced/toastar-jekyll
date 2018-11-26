@@ -285,7 +285,7 @@ position: relative;
 
     .header-portrait {
 position: relative;
-    left: 70px;
+    left: 34px;
     top: 7px;
     z-index: 99;
     max-height: 401px;
@@ -294,7 +294,7 @@ position: relative;
 .header-grid {
         position: absolute;
     max-height: 350px;
-    top: 110px;
+    top: 45px;
     left: 0px;
 }
 
