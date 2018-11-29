@@ -5,3 +5,5 @@
 /live-demo	https://calendly.com/michiel-6/15min	301
 /contact	/
 /nl/*	/
+https://toastar.net/* https://toastar.io/:splat 301!
+https://www.toastar.net/* https://toastar.io/:splat 301!
