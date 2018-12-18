@@ -22,6 +22,9 @@ url: "https://www.toastar.io" # the base hostname & protocol for your site, e.g.
 #twitter_username: jekyllrb
 #github_username:  jekyll
 
+# toastar variables:
+calendly: 'https://calendly.com/kvanderwal10/30min'
+
 # Build settings
 markdown: kramdown
 # theme: minima
