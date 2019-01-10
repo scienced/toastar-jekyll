@@ -23,7 +23,7 @@ url: "https://www.toastar.io" # the base hostname & protocol for your site, e.g.
 #github_username:  jekyll
 
 # toastar variables:
-calendly: 'https://calendly.com/kvanderwal10/30min'
+calendly: 'https://calendly.com/kvanderwal10/15min'
 
 # Build settings
 markdown: kramdown

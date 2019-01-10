@@ -2,7 +2,7 @@
 /crm-integrations	/integrations	301
 /crm-integrations/*	/integrations	301
 /clients	/
-/live-demo	https://calendly.com/kvanderwal10/30min	301
+/live-demo	https://calendly.com/kvanderwal10/15min	301
 /contact	/
 /nl/*	/
 https://toastar.net/* https://toastar.io/:splat 301!
