@@ -267,11 +267,12 @@ span.benefits {
 }
 
 .header-portrait {
- position: relative;
-    left: 318px;
-    top: 20px;
+position: relative;
+    left: 280px;
+    top: 37px;
     z-index: 99;
-    max-height: 515px;
+    max-height: 471px;
+    margin-bottom: 3rem;
 }
 
 .header-grid {
@@ -279,4 +280,24 @@ span.benefits {
     max-height: 350px;
     top: 110px;
     left: 0px;
+}
+
+@media (max-width:760px) {
+
+    .header-portrait {
+position: relative;
+    left: 34px;
+    top: 7px;
+    z-index: 99;
+    max-height: 401px;
+    margin-bottom: 1rem;
+}
+
+.header-grid {
+        position: absolute;
+    max-height: 350px;
+    top: 45px;
+    left: 0px;
+}
+
 }

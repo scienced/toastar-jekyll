@@ -1,5 +1,5 @@
 ---
-title: Toastar for sales teams
+title: Toastar Integrations
 ---
 
 {% include header.html %}
@@ -9,8 +9,7 @@ title: Toastar for sales teams
 		
 <div class="home">
 	<section class="homepage-header-section">
-		<img src="images/homepage/header-left-dots.svg" alt="" class="bg-dots bg-dots-left">
-		<img src="images/homepage/header-right-dots.svg" alt="" class="bg-dots bg-dots-right">
+
 		<div class="container">
 			<div class="row">
 				<div class="col-md-5">
@@ -18,7 +17,7 @@ title: Toastar for sales teams
 						<h1>Telephony built right into your workflow</h1>
 						<h4>Toastar integrates with your CRM and Helpdesk</h2>
 						<div>
-							<a href="" onclick="Calendly.showPopupWidget('https://calendly.com/michiel-6/15min');return false;" class="button button-teal text-center">Give me a demo</a>
+							<a href="" onclick="Calendly.showPopupWidget('{{ site.calendly }}');return false;" class="button button-teal text-center">Give me a demo</a>
 							
 
 							
@@ -49,7 +48,7 @@ title: Toastar for sales teams
 
                              	<img src="/assets/images/integration/dynamics.png" height="50">
 
-         <h4 class="mt-4 font-weight-bold">Micosoft Dynamics 365</h4>
+         <h4 class="mt-4 font-weight-bold">Microsoft Dynamics 365</h4>
          
           <p>We love this easy-to-learn and easy-to-use CRM solution. Toastar seamlessly integrates Microsoft Dynamics 365 with your telephony system.</p>
          <span class="emphasis">CRM</span>
@@ -62,7 +61,7 @@ title: Toastar for sales teams
                               <div class="col-sm-4 text-left testimonial">
                               	<img src="/assets/images/integration/salesforce.svg" height="55">
                               	 <h4 class="mt-4 font-weight-bold">Salesforce</h4>
-                           <p>Salesforce, Toastar and your telephony system: the prefect combination for your sales team. The integration allows you to maximize your sales efforts and customer satisfaction.</p>
+                           <p>Salesforce, Toastar and your telephony system; the prefect combination for your sales team. The integration allows you to maximize your sales efforts and customer satisfaction.</p>
                             <span class="emphasis">CRM</span>
                           
 
@@ -70,10 +69,10 @@ title: Toastar for sales teams
 
                     <div class="col-sm-4 text-left testimonial">
 
-                             	<img src="https://www.hubspot.com/hubfs/HubSpot_Logos/HSLogo_color.svg" height="50">
+                             	<img src="/assets/images/integration/hubspot.svg" height="50">
 
          <h4 class="mt-4 font-weight-bold">Hubspot</h4>
-          <p>The marketing, sales, and service software of Hubspot works like a deam with Toastar and your telephony system.</p>
+          <p>The marketing, sales, and service software of Hubspot works like a dream with Toastar and your telephony system.</p>
            <span class="emphasis">CRM</span>
     
          
@@ -82,16 +81,35 @@ title: Toastar for sales teams
                                                     
 
                               <div class="col-sm-4 text-left testimonial">
-                              	<img src="http://www.quotendis.nl/wp-content/uploads/2015/11/TOPdesk-logo.jpg" height="40">
+                              	<img src="/assets/images/integration/TOPdesk-logo.jpg" height="40">
                               	 <h4 class="mt-4 font-weight-bold">Topdesk</h4>
-                           <p>TOPdesks service management software seamlessy integrates with your telephony system. With Toastar.</p>
+                           <p>TOPdesks service management software seamlessly integrates with your telephony system with Toastar.</p>
                             <span class="emphasis">Helpdesk</span>
                           
 
                     </div>
 
                     <div class="col-sm-4 text-left testimonial">
-                              	<img src="https://d25g8pxacugih9.cloudfront.net/static/exactlive/2018/images/exact-logo-2018.png" height="40">
+                                <img src="/assets/images/integration/sap.svg" height="40">
+                                 <h4 class="mt-4 font-weight-bold">SAP</h4>
+                           <p>The SAP system consists of a number of fully integrated modules, which covers virtually every aspect of the business management. Toastar integrates SAP with your telephony system. </p>
+                            <span class="emphasis">CRM</span>
+                          
+
+                    </div>
+
+                    <div class="col-sm-4 text-left testimonial">
+                                <img src="/assets/images/integration/servicenow.svg" height="40">
+                                 <h4 class="mt-4 font-weight-bold">ServiceNow</h4>
+                           <p>More than 5,000 enterprise customers worldwide use ServiceNow to drive their digital transformation. Toastar integrates ServiceNow with your systems. </p>
+                            <span class="emphasis">CRM</span>
+                          
+
+                    </div>
+
+
+                    <div class="col-sm-4 text-left testimonial">
+                              	<img src="/assets/images/integration/exact.png" height="40">
                               	 <h4 class="mt-4 font-weight-bold">Exact</h4>
                            <p>Exact online provides access to all of your vital business processes in one application. Toastar integrates Exact online with your telephony system. </p>
                             <span class="emphasis">CRM</span>
@@ -100,14 +118,69 @@ title: Toastar for sales teams
                     </div>
 
                     <div class="col-sm-4 text-left testimonial">
-                              	<img src="data:image/png;base64,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" height="40">
+                              	<img src="/assets/images/integration/zendesk.svg" height="40">
                               	 <h4 class="mt-4 font-weight-bold">Zendesk</h4>
                            <p>Toastar is the perfect addition to Zendesks powerful and flexible customer service and engagement platform. </p>
                             <span class="emphasis">Helpdesk</span>
                           
 
                     </div>
-                  
+
+                    <div class="col-sm-4 text-left testimonial">
+                                <img src="/assets/images/integration/sugarcrm.svg" height="40">
+                                 <h4 class="mt-4 font-weight-bold">Sugar CRM</h4>
+                           <p>SugarCRMand Toastar enablebusinesses to create extraordinary customer relationships with the most innovative and affordable CRM solution on the market. </p>
+                            <span class="emphasis">CRM</span>
+                          
+
+                    </div>
+
+                    <div class="col-sm-4 text-left testimonial">
+                                <img src="/assets/images/integration/perfectviewblack.svg" height="40">
+                                 <h4 class="mt-4 font-weight-bold">PerfectView</h4>
+                           <p>PerfectView CRM Online is the number oneOnline CRM Systemin the Netherlands, with more than 17,000 satisfied users. PerfectView and Toastar are a perfect match </p>
+                            <span class="emphasis">CRM</span>
+                          
+
+                    </div>
+
+                    <div class="col-sm-4 text-left testimonial">
+                                <img src="/assets/images/integration/bpmonline.svg" height="40">
+                                 <h4 class="mt-4 font-weight-bold">BPM online</h4>
+                           <p>BPM online has award-winning BPM + CRM system for marketing, sales and service to manage business processes across the entire customer journey. Toastar integrates completely with BPM online. </p>
+                            <span class="emphasis">BPM CRM</span>
+                          
+
+                    </div>
+
+                    <div class="col-sm-4 text-left testimonial">
+                                <img src="/assets/images/integration/netsuite.svg" height="40">
+                                 <h4 class="mt-4 font-weight-bold">Netsuite</h4>
+                           <p>NetSuite offers one unified business management suite, encompassing ERP/Financials, CRM and ecommerce that perfectly integrates with Toastar. </p>
+                            <span class="emphasis">ERP CRM</span>
+                          
+
+                    </div>
+
+                    <div class="col-sm-4 text-left testimonial">
+                                <img src="/assets/images/integration/ZOHO.svg" height="40">
+                                 <h4 class="mt-4 font-weight-bold">Zoho</h4>
+                           <p>Toastar integrates seamlessly with Zoho’s unique and powerful suite of software to run your entire business </p>
+                            <span class="emphasis">CRM</span>
+                          
+
+                    </div>
+
+                    <div class="col-sm-4 text-left testimonial">
+                                <img src="/assets/images/integration/copper.png" height="40">
+                                 <h4 class="mt-4 font-weight-bold">Copper</h4>
+                           <p>Copper has a new kind of productivity CRM that's designed to do all your busywork and that completely integrates with Toastar.</p>
+                            <span class="emphasis">CRM</span>
+                          
+
+                    </div>
+
+
                   </div>
 
 
@@ -129,26 +202,32 @@ title: Toastar for sales teams
                             
                              <div class="col-sm-4 text-left testimonial">
 
-                             	<img src="https://mbtskoudsalg.com/images/png-banner-skype-5.png" height="60">
+                             	<img src="/assets/images/integration/skype2.png" height="60">
 
          <h4 class="mt-4 font-weight-bold">Skype for business</h4>
          
-          <p>Toastar ingrates your powerful collaboration tools with your CRM and other support systems.</p>
+          <p>Toastar integrates your powerful collaboration tools with your CRM and other support systems.</p>
            <span class="emphasis">Telephony</span>
           
          
                                             
                     		 </div>
+
+                        <div class="col-sm-4 text-left testimonial">
+                                <img src="/assets/images/integration/Microsoft-Teams-Logo.png" height="60">
+                                 <h4 class="mt-4 font-weight-bold">Microsoft Teams</h4>
+                           <p>Microsoft Teams is the hub for team collaboration that integrates the people, content and tools. Toastar integrates Microsoft Teams with your systems.</p>
+                           <span class="emphasis">Telephony</span>
+                    </div>
                                                     
 
-                              <div class="col-sm-4 text-left testimonial">
-                              	<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Cisco_logo.svg/2000px-Cisco_logo.svg.png" height="50">
+                      <div class="col-sm-4 text-left testimonial">
+                              	<img src="/assets/images/integration/cisco2.png" height="50">
                               	 <h4 class="mt-4 font-weight-bold">Cisco</h4>
                            <p>With Toastar you get the most out of your Cisco unified communications solutions and your current CRM system.</p>
                            <span class="emphasis">Telephony</span>
-                          
-
                     </div>
+
 
                      <div class="col-sm-4 text-left testimonial">
 
@@ -193,6 +272,7 @@ title: Toastar for sales teams
                   </div>
 
 
+                  <p class="justify-content-md-center pb-4"> Is your system not in the list? No problem.<br> Our specialists will create an integration with the system of your choice. </p>
 
 
             </div>
@@ -201,19 +281,7 @@ title: Toastar for sales teams
 
 
 
-
-
-<section class="cta-section">
-	<div class="container big-cta text-center">
-		<div>
-			<h2>Schedule a free demo</h2>
-			<p>Have an expert show you how to have better conversations. Choose a moment that suits you.</p>
-			<a href="" onclick="Calendly.showPopupWidget('https://calendly.com/michiel-6/15min');return false;" class="button button-teal">Give me a demo</a>
-
-			 
-		</div>
-	</div>
-</section>
+{% include cta.html %}
 
 </div>
 
