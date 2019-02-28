@@ -97,7 +97,11 @@ hr.mini {
 }
 
 li {
-    color: #484848
+    color: #484848;
+        margin: 0 0 16px 0;
+    font-size: 16px;
+    padding-left: 2em;
+    text-indent: -2em;
 }
 
 .blue {
