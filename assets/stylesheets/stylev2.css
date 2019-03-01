@@ -313,3 +313,8 @@ position: relative;
     text-transform: uppercase;
     font-family: 'Source Sans Pro', sans-serif;
 }
+
+.bg-purple {
+    background-color: #624e6d;
+        
+}
