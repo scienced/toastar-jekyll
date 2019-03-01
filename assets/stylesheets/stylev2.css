@@ -316,5 +316,14 @@ position: relative;
 
 .bg-purple {
     background-color: #624e6d;
-        
+
+}
+
+.home .card li {
+
+    margin: 0 0 12px 0;
+    font-size: 15px;
+    color: #484848;
+    padding-left: 2em;
+    text-indent: -2em;
 }
